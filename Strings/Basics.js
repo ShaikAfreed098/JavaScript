@@ -107,3 +107,20 @@ console.log(newStr); // Output: You are learning Python
 //Trimming Whitespace from a String 
 let str8 = "   You are learning JavaScript   ";// Output: "You are learning JavaScript"
 console.log(str8.trim());
+
+//10. Access Characters from String
+
+let sa1 = 'Learn JavaScript';
+let sa2 = sa1[6];
+console.log(sa2);
+sa2 = sa1.charAt(6);
+console.log(sa2);
+
+//String Comparison in JavaScript
+let sa3 = "Ajay"
+let sa4= new String("Ajay");
+
+console.log(sa3 == sa4);  // true (type coercion)
+console.log(sa3 === sa4); // false (strict comparison)
+console.log(sa3.localeCompare(sa4)); // 0 (means they are equal lexicographically)
+
